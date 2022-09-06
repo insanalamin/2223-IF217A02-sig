@@ -126,6 +126,7 @@
     - KML
     - GeoJSON
 - Operational App
+  - Thematic data input
   - Geo tagging
   - Geo tracking
     - GPS
@@ -144,6 +145,8 @@
         - React
     - **🗡 D3js** - Custom interactive visualization
     - shpjs
+  - Case
+    - Thematic map visualization
 - Tech stack
   - Viz
     - OpenLayers
