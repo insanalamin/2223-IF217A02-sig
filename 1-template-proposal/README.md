@@ -28,4 +28,4 @@ UUID | string | ooj73849r734mf34r3
 Nama user | string | dahmun
 
 ## Mockup UX
-![Alur aplikasi]([http://url/to/img.png](https://www.springboard.com/blog/wp-content/uploads/2021/05/what-is-a-wirefarme-in-ux-design-scaled.jpg))
+![Alur aplikasi](mockup.png)
