@@ -113,9 +113,12 @@
         - Source
         - Geometry
         - Feature
+      - OpenLayers on component-based frontend frameworks
+        - React
     - **🗡 D3js** - Custom interactive visualization
-  - Tech stack
-    - OSGeo vs Esri
+    - shpjs
+- Tech stack
+- OSGeo vs Esri
 - Advance topics
   - Big geospatial data
     - ETL tools
@@ -127,3 +130,23 @@
   - Satu Peta Indonesia
   - Satu Peta Jabar
   - Rupa Bumi Indonesia
+  
+## 📖 References
+
+## 🛡 The White Hackers
+\# | Name | Final Projects | Achievements
+---|---|---|---
+1 | [Akhdan Musyaffa Firdaus](https://github.com/AkhdanFirdaus/2223-IF217A02-sig) | | 
+2 | [Farhan Rizky Fauzi Setiawan](https://github.com/farhanrizkyyyy/2223-IF217A02-sig) | | 
+3 | [Fahriz Dimasqy](https://github.com/fahrizdimasqy/2223-IF217A02-sig) | | 
+4 | [Dicky Nur Arifin](https://github.com/Dna2961/2223-IF217A02-sig.git) | | 
+5 | [Nurul Aulia Dewi](https://github.com/NurulAuliaDewi/2223-IF217A02-sig) | | 
+6 | [Ghilba Qinthara Djodha](https://github.com/ghilba/2223-IF217A02-sig) | | 
+7 | []() | | 
+8 | []() | | 
+9 | []() | | 
+10 | []() | | 
+11 | []() | | 
+12 | []() | | 
+13 | []() | | 
+14 | []() | | 
