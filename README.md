@@ -85,13 +85,13 @@
       - Multi polygon
   - Common format
     - SHP
-    - **GeoJSON**
+    - **🗡 GeoJSON**
 - Processing & analysis
-  - **QGIS** vs ArcGIS desktop
+  - **🗡 QGIS** vs ArcGIS desktop
 - Database
-  - **PostGIS** vs Oracle
+  - **🗡 PostGIS** vs Oracle
 - Map service
-  - **Geoserver** vs ArcGIS server
+  - **🗡 Geoserver** vs ArcGIS server
     - Linux server
     - Dockerized Geoserver
   - Output format
@@ -104,7 +104,7 @@
   - Geo tracking
 - Business intelligence
   - WebGIS development
-    - **OpenLayers** vs ArcGIS js vs Leaflet
+    - **🗡 OpenLayers** vs ArcGIS js vs Leaflet
       - HTML CSS Javascript mini intro
       - OpenLayers main classes
         - Map
@@ -113,16 +113,15 @@
         - Source
         - Geometry
         - Feature
-      - Custom interactive visualization
-        - D3js
+    - **🗡 D3js** - Custom interactive visualization
   - Tech stack
-    - **OSGeo** vs Esri
+    - OSGeo vs Esri
 - Advance topics
   - Big geospatial data
     - ETL tools
     - Analysis tools
     - Infrastructure scaling
-      - **Geoserver cluster**
+      - **🗡 Geoserver cluster**
   - Spatial machine learning
 - Regulation and official data source
   - Satu Peta Indonesia
