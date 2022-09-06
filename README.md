@@ -133,6 +133,9 @@
   - Satu Peta Indonesia
   - Satu Peta Jabar
   - Rupa Bumi Indonesia
+- Case study
+  - Google map search
+  - Gojek tracking
   
 ## 🛠 Tools
 - NodeJS
