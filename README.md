@@ -71,10 +71,33 @@
 > The more that you read, the more things you will know. The more that you learn, the more places you’ll go.
 
 - Introduction
+  - Definisi sistem informasi geospasial, sistem dengan data keruangan (data yang berisi atribut lokasi) yang mampu :
+    - pengelolaan data
+      - mengirim koordinat
+      - mengirim area
+      - melihat data
+      - menghapus data
+      - mengubah data
+    - pemrosesan
+    - analisis
+    - visualisasi
+    - integrasi
 - Digitization
+  - mendigitalkan informasi spasial
+    - mengkonversi data jogging ke dalam data tipe line terkait rute jogging
+    - mengkonversi peta dari buku peta offline ke bentuk digital dengan informasi lokasi
+    - mengkonversi foto udara dari kamera ke bentuk digital dengan informasi lokasi
+    - mengkonversi data penduduk miskin, foto, beserta koordinat ke database
 - Remote sensing
+  - penginderaan jauh
+    - foto udara
+    - citra satelit
 - Data representation
   - Spatial reference system
+    - Format penulisan data spasial
+    - Mengetahui / memastikan format SRS dari peta2 yang akan ditampilkan atau digabung ke database
+    - Konversi SRS
+      - Dari UTM ke WGS 84
   - Data type
     - Raster
     - Vector
@@ -102,9 +125,10 @@
     - WFS
     - KML
     - GeoJSON
-- Operational
+- Operational App
   - Geo tagging
   - Geo tracking
+    - GPS
 - Business intelligence
   - WebGIS development
     - **🗡 OpenLayers** vs ArcGIS js vs Leaflet
@@ -121,6 +145,11 @@
     - **🗡 D3js** - Custom interactive visualization
     - shpjs
 - Tech stack
+  - Viz
+    - OpenLayers
+    - Leaflet
+    - ArcGIS js
+    - D3js
 - OSGeo vs Esri
 - Advance topics
   - Big geospatial data
