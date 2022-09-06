@@ -70,11 +70,19 @@
 ## 🌷 The Course
 > The more that you read, the more things you will know. The more that you learn, the more places you’ll go.
 
-- Konsep dan Studi Kasus
-- Digitasi
+- Introduction
+- Digitization
 - Remote sensing
 - Data representation
   - Spatial reference system
+  - Data type
+    - Raster
+    - Vector
+      - Point
+      - Line
+      - Multi line
+      - Polygon
+      - Multi polygon
   - Common format
     - SHP
     - **GeoJSON**
@@ -107,11 +115,13 @@
         - Feature
   - Tech stack
     - **OSGeo** vs Esri
-- Big geospatial data
-  - ETL tools
-  - Analysis tools
-  - Infrastructure scaling
-    - **Geoserver cluster**
+- Advance topics
+  - Big geospatial data
+    - ETL tools
+    - Analysis tools
+    - Infrastructure scaling
+      - **Geoserver cluster**
+  - Spatial machine learning
 - Regulation and official data source
   - Satu Peta Indonesia
   - Satu Peta Jabar
