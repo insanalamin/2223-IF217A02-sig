@@ -90,6 +90,9 @@
   - **🗡 QGIS** vs ArcGIS desktop
 - Database
   - **🗡 PostGIS** vs Oracle
+  - Analysis
+    - Query
+  - Geospatial search
 - Map service
   - **🗡 Geoserver** vs ArcGIS server
     - Linux server
