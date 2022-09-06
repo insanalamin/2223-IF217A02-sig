@@ -113,6 +113,8 @@
         - Source
         - Geometry
         - Feature
+      - Custom interactive visualization
+        - D3js
   - Tech stack
     - **OSGeo** vs Esri
 - Advance topics
