@@ -52,7 +52,18 @@ Alur Umum:
 ## Data Representation
 
 ### Data Type
+- POINT, MULTI POINT
+- LINE, MULTI LINE
+- POLYGON, MULTI POLYGON
 
 ### Data Format
+- SHP
+  - Umum digunakan pada :
+    - Aplikasi GIS Desktop
+    - Sumber dari map service
+- GeoJSON
+  - Umum digunakan pada :
+    - Aplikasi berbasis web / mobile
+- KML 
 
 ## Spatial Database Introduction
