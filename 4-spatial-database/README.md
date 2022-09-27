@@ -41,12 +41,13 @@ M : Opsional 4 dimensi, biasanya mewadahi data yang nilai yang berubah seiring l
   3. Schema : Aplikasi V1, Data Warehouse, Data Lake, Data Mart
   4A. Tables : wilayah, user, tempat
     - Kolom
-      - Constraint
-      - Foreign Keys
-      - **Indexes**
-      - Partitions
-      - Triggers
+      - Constraint : Kombinasi satu kolom atau lebih yang menjadikan row unik
+      - Foreign Keys : Tautan ke Primary Key dari kolom di tabel A ke kolom di tabel B
+      - **Indexes** : Menambahkan struktur data untuk mempercepat query
+      - Partitions : Mengoptimasi penyimpanan dengan membagi data berdasarkan kolom tertentu, misal partitioned by province
+      - Triggers : Respon otomatis dari event tertentu di database
     - Data
-  4B. Views
+  4B. Views : Tabel virtual yang dibuat dari query yang disimpan, biasanya digunakan untuk simpan statistik dari query yang kompleks
+  4C. Materialized View : View yang dibuat strukturnya secara fisik di storage
   4C. Indexes
   4D. Functions
