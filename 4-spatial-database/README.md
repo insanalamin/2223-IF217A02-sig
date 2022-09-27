@@ -43,7 +43,7 @@ M : Opsional 4 dimensi, biasanya mewadahi data yang nilai yang berubah seiring l
     - Kolom
       - Constraint
       - Foreign Keys
-      - Indexes
+      - **Indexes**
       - Partitions
       - Triggers
     - Data
