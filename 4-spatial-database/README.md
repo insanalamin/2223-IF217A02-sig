@@ -54,12 +54,12 @@ M : Opsional 4 dimensi, biasanya mewadahi data yang nilai yang berubah seiring l
   
 ## Pendefinisian Data - Create Table
   
-Buat Schema
+### Buat Schema
  ```sql
 CREATE SCHEMA jabar;
 ```
 
-Buat Table
+### Buat Table
 ```sql
 CREATE TABLE jabar.pariwisata(
   id_tempat SERIAL PRIMARY KEY, 
@@ -72,9 +72,22 @@ CREATE TABLE jabar.pariwisata(
 
 ## Manipulasi Data - Insert Query
 
-Menambahkan Data
+### Menambahkan Data
 ```sql
 INSERT INTO jabar.pariwisata(nama_tempat, kategori, koordinat)
 VALUES('Trans Studio Mall', 3, ST_GeomFromText('POINT(107.238943844 -6.324324322)', 4326));
 ```
-  
+
+### Operasi Spasial
+- Teks dan Geometry
+  - ST_GeomFromText : buat geometry dari teks WKT
+  - ST_AsText : buat teks WKT dari geometry
+- Hitung Properti Geometry
+  - ST_Length : ngukur panjang
+  - ST_Area : ngukur luas
+- Hubungan Antar Geometry
+  - ST_Contains : keseluruhan A ada di dalem B
+  - ST_Equals : geometry persis sama
+  - ST_Overlaps : geometry sama, saling kait
+  - ST_Distance : jarak terdekat dari dua geometry
+  - ST_Centroid : hitung titik tengah geometry
