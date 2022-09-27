@@ -52,21 +52,27 @@ M : Opsional 4 dimensi, biasanya mewadahi data yang nilai yang berubah seiring l
   4C. Indexes
   4D. Functions
   
-  ## Pendefinisian Data - Create Table
+## Pendefinisian Data - Create Table
   
-  Buat Schema
-   ```sql
-  CREATE SCHEMA jabar;
-  ```
-  
-  Buat Table
-  ```sql
-  CREATE TABLE jabar.pariwisata(
-    id_tempat SERIAL PRIMARY KEY, 
-    nama_tempat VARCHAR, 
-    kategori INT, 
-    koordinat GEOMETRY(POINT, 4326), 
-    lahan GEOMETRY(POLYGON, 4326)
-  );
-  ```
+Buat Schema
+ ```sql
+CREATE SCHEMA jabar;
+```
+
+Buat Table
+```sql
+CREATE TABLE jabar.pariwisata(
+  id_tempat SERIAL PRIMARY KEY, 
+  nama_tempat VARCHAR, 
+  kategori INT, 
+  koordinat GEOMETRY(POINT, 4326), 
+  lahan GEOMETRY(POLYGON, 4326)
+);
+```
+
+Insert Query
+```sql
+INSERT INTO jabar.pariwisata(nama_tempat, kategori, koordinat)
+VALUES('Trans Studio Mall', 3, ST_GeomFromText('POINT(107.238943844 -6.324324322)', 4326));
+```
   
