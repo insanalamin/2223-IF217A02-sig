@@ -38,7 +38,7 @@ M : Opsional 4 dimensi, biasanya mewadahi data yang nilai yang berubah seiring l
 - Struktur databasenya sama dengan PostgreSQL, dimana hirarkinya :
   1. Database server : 1 instalasi PostGIS, 1 Docker container PostGIS
   2. Database : Pariwisata
-  3. Schema : Aplikasi V1, Data Warehouse, Data Lake, Data Mart
+  3. Schema : Koleksi sekumpulan Table, contoh: Aplikasi V1, Data Warehouse, Data Lake, Data Mart
   4A. Tables : wilayah, user, tempat
     - Kolom
       - Constraint : Kombinasi satu kolom atau lebih yang menjadikan row unik
@@ -54,6 +54,12 @@ M : Opsional 4 dimensi, biasanya mewadahi data yang nilai yang berubah seiring l
   
   ## Pendefinisian Data - Create Table
   
+  Buat Schema
+   ```sql
+  CREATE SCHEMA jabar;
+  ```
+  
+  Buat Table
   ```sql
   CREATE TABLE jabar.pariwisata(
     id_tempat SERIAL PRIMARY KEY, 
