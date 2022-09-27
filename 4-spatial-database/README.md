@@ -66,7 +66,7 @@ M : Opsional 4 dimensi, biasanya mewadahi data yang nilai yang berubah seiring l
     nama_tempat VARCHAR, 
     kategori INT, 
     koordinat GEOMETRY(POINT, 4326), 
-    area GEOMETRY(POLYGON, 4326)
+    lahan GEOMETRY(POLYGON, 4326)
   );
   ```
   
