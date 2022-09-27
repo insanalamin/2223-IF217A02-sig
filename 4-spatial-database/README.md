@@ -51,3 +51,16 @@ M : Opsional 4 dimensi, biasanya mewadahi data yang nilai yang berubah seiring l
   4C. Materialized View : View yang dibuat strukturnya secara fisik di storage
   4C. Indexes
   4D. Functions
+  
+  ## Pendefinisian Data - Create Table
+  
+  ```sql
+  CREATE TABLE jabar.pariwisata(
+    id_tempat SERIAL PRIMARY KEY, 
+    nama_tempat VARCHAR, 
+    kategori INT, 
+    koordinat GEOMETRY(POINT, 4326), 
+    area GEOMETRY(POLYGON, 4326)
+  );
+  ```
+  
