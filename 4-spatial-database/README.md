@@ -70,7 +70,9 @@ CREATE TABLE jabar.pariwisata(
 );
 ```
 
-Insert Query
+## Manipulasi Data - Insert Query
+
+Menambahkan Data
 ```sql
 INSERT INTO jabar.pariwisata(nama_tempat, kategori, koordinat)
 VALUES('Trans Studio Mall', 3, ST_GeomFromText('POINT(107.238943844 -6.324324322)', 4326));
