@@ -82,6 +82,7 @@ VALUES('Trans Studio Mall', 3, ST_GeomFromText('POINT(107.238943844 -6.324324322
 - Teks dan Geometry
   - ST_GeomFromText : buat geometry dari teks WKT
   - ST_AsText : buat teks WKT dari geometry
+  - [ST_AsGeoJSON](https://postgis.net/docs/ST_AsGeoJSON.html) : membuat GeoJSON dari koleksi fitur
 - Hitung Properti Geometry
   - ST_Length : ngukur panjang
   - ST_Area : ngukur luas
@@ -91,3 +92,6 @@ VALUES('Trans Studio Mall', 3, ST_GeomFromText('POINT(107.238943844 -6.324324322
   - ST_Overlaps : geometry sama, saling kait
   - ST_Distance : jarak terdekat dari dua geometry
   - ST_Centroid : hitung titik tengah geometry
+
+### Materi
+- [Referensi PostGIS](https://postgis.net/docs/reference.html)
