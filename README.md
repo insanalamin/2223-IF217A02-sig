@@ -168,7 +168,11 @@
 - Case study
   - Google map search
   - Gojek tracking
-  
+- Jalur Pendalaman
+  1. data analytics
+  2. viz interactivity
+  3. infras scalability
+ 
 ## 🛠 Tools
 - NodeJS
 - Docker
