@@ -70,6 +70,11 @@ CREATE TABLE jabar.pariwisata(
 );
 ```
 
+### Menambahkan Atribut
+```sql
+SELECT AddGeometryColumn ('jabar','pariwisata','jalur',4326,'LINESTRING',2);
+```
+
 ## Manipulasi Data - Insert Query
 
 ### Menambahkan Data
