@@ -75,6 +75,13 @@ CREATE TABLE jabar.pariwisata(
 SELECT AddGeometryColumn ('jabar','pariwisata','jalur',4326,'LINESTRING',2);
 ```
 
+### Menambahkan Index Spasial Untuk Atribut
+```sql
+CREATE INDEX jabar_pariwisata_koordinat_idx
+  ON jabar.pariwisata
+  USING GIST (koordinat);
+```
+
 ## Manipulasi Data - Insert Query
 
 ### Menambahkan Data
