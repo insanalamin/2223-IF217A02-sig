@@ -105,5 +105,32 @@ VALUES('Trans Studio Mall', 3, ST_GeomFromText('POINT(107.238943844 -6.324324322
   - ST_Distance : jarak terdekat dari dua geometry
   - ST_Centroid : hitung titik tengah geometry
 
+### Contoh operasi spasial ST_Contains untuk mendapatkan tempat-tempat yang ada di Kawasan Patahan Lembang
+```sql
+select
+	A.*,
+	B.*
+from 
+	(
+		select
+			id_tempat,
+			nama_tempat,
+			lahan
+		from jabar.pariwisata p 
+		where p.lahan is not null
+		and p.id_tempat = 3
+	) A
+join 
+	(
+		select
+			id_tempat,
+			nama_tempat,
+			koordinat 
+		from jabar.pariwisata p 
+		where p.koordinat is not null	
+	) B
+on st_contains(A.lahan, B.koordinat)
+```
+
 ### Materi
 - [Referensi PostGIS](https://postgis.net/docs/reference.html)
