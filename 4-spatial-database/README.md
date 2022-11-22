@@ -132,5 +132,18 @@ join
 on st_contains(A.lahan, B.koordinat)
 ```
 
+### Contoh operasi spasial ST_PointInsideCircle untuk mendapatkan titik-titik dalam satu radius
+Geometry
+```sql
+select
+  id_tempat,
+  nama_tempat,
+  koordinat,
+  st_pointinsidecircle(koordinat, 107.7436, -6.8761,  0.000009009009 * 4000)
+from jabar.pariwisata p 
+where p.koordinat is not null
+```
+
+
 ### Materi
 - [Referensi PostGIS](https://postgis.net/docs/reference.html)
